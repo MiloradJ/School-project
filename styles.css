@@ -83,3 +83,101 @@ body{
 .hero-wrapper h1{
     margin: 0;
 }
+
+.plans-wrapper{
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.plans-wrapper__title{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    flex-basis: 100%;
+    font-weight: bolder;
+    font-size: 47px;
+}
+
+.plans-wrapper__article{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 37px 23px;
+    background:#ebddd9 ;
+    align-items: center;
+    min-width: 230px;
+    border-radius: 23px;
+    border: 3px solid black;
+    margin-bottom: 17px;
+}
+
+.advanced{
+    order: 1;
+    height: 570px;
+    min-height: 630px;
+    background: #fac0ac !important;
+}
+
+.intermediate{
+   order: 2;
+}
+
+.plans-wrapper__article h1:nth-child(1) {
+    font-family: 'Courier Prime', monospace;
+    font-weight: bolder;
+    font-size: 37px;
+}
+.plans-wrapper__article h1:nth-child(2) {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    text-underline-offset: 5px;
+
+}  
+
+.plans-wrapper__article h2{
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.plans-wrapper__article h3{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 19px;
+}
+
+.plans-wrapper__article ul{
+    list-style-type: circle;
+    align-self: flex-start;
+}
+
+.plans-wrapper__article ul li{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.choose-plan__button{
+    margin-top: 20px;
+}
+
+.choose-plan__button button{
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border: 2px solid black;
+    font-size: 17px;
+    background: #fbfdc3;
+    border-radius: 10px;
+}
+.choose-plan__button button:hover{
+    cursor: pointer;
+    background: #52ab98;
+    transition: 0.3s ease;
+}
+
+
