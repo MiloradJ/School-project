@@ -114,11 +114,12 @@ body{
     padding: 37px 23px;
     background:#ebddd9 ;
     align-items: center;
-    flex-basis: 31%;
+    flex-basis: 32%;
     min-width: 230px;
     border-radius: 23px;
     border: 3px solid black;
-    margin-bottom: 17px; box-shadow: 3px 3px 3px 3px rgb(77, 77, 77);
+    margin-bottom: 17px; 
+    box-shadow: 3px 3px 3px 3px rgb(77, 77, 77);
 }
 
 .advanced{
